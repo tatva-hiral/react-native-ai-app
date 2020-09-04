@@ -1,14 +1,18 @@
 # React-native Test App
 
-Currently includes:
+This is the test application, We have used own created react-native base repo to begin with this test application which by default includes support to ES6.
+
+Built with:
 
 - React Native
 - React Navigation
 - Redux
 - Redux-Saga
-- And more!
+- React Hooks and other.
 
 ## Quick Start
+
+## Folder Structure
 
 The project's structure will look similar to this:
 
@@ -26,7 +30,7 @@ react-native-ai-app
 │   ├── theme
 │   ├── utils
 │   ├── App.js
-├── test
+├── __test__
 ├── README.md
 ├── android
 │   ├── app
@@ -35,15 +39,15 @@ react-native-ai-app
 │   ├── gradle.properties
 │   ├── gradlew
 │   ├── gradlew.bat
-│   ├── keystores
+│   ├── my-upload-key.keystore
 │   └── settings.gradle
 ├── index.js
 ├── ios
-│   ├── testrn
-│   ├── testrn-tvOS
-│   ├── testrn-tvOSTests
-│   ├── testrn.xcodeproj
-│   └── testrnTests
+│   ├── engineer_ai_rn_app
+│   ├── engineer_ai_rn_app-tvOS
+│   ├── engineer_ai_rn_app-tvOSTests
+│   ├── engineer_ai_rn_app.xcodeproj
+│   └── engineer_ai_rn_appTests
 └── package.json
 
 ```
@@ -71,10 +75,10 @@ src
 ```
 
 **components**
-This is where your React components will live. Each component will have a directory containing the `.js` file. The app will come with some commonly used components like NavHeader.
+This is where your React components will live. Each component will have a directory containing the `.js` file. The app will come with some commonly used components like NavHeader, Theme resuable controls, loader etc.
 
 **config**
-This is where your have translations will live if you are using `i18n-js and react-native-localize`.
+This is where your have translations will live if you are using `i18n-js and react-native-localize` and any app level configuration.
 
 **redux**
 This is where your app's redux component will live such as actions, reducers & store.
@@ -89,7 +93,7 @@ This is where your `@react-navigation/native` navigators will live.
 This is where your screen components will live. A screen is a React component which will take up the entire screen and be part of the navigation hierarchy. Each screen will have a directory containing the `.js` file, along with styles files.
 
 **services**
-Any services that interface with the outside world will live here (think REST APIs, Push Notifications, etc.).
+Any services that interface with the outside world will live here (think REST APIs, Push Notifications, Graphql etc.).
 
 **constants**
 Here lives your application API_URL and other constants.
