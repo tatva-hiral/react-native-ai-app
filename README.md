@@ -12,6 +12,28 @@ Built with:
 
 ## Quick Start
 
+Node 8 or greater is required. Development for iOS requires a Mac and Xcode 9 or up, and will target iOS 9 and up.
+
+You also need to install the dependencies required by React Native:
+
+- for [Android or development](https://reactnative.dev/docs/environment-setup)
+
+Setup the project:
+- clone this repository
+- install the npm dependencies by running `yarn` or `npm install`
+
+**Run project by below command:**
+
+### Android
+  
+- `yarn start` to start the metro bundler, in a dedicated terminal
+- `yarn android` to run the Android application (remember to start a simulator or connect an Android phone)
+
+### iOS
+
+- `yarn start` to start the metro bundler, in a dedicated terminal
+- `yarn ios` to run the iOS application (remember to start a simulator or connect an iPhone phone)
+
 ## Folder Structure
 
 The project's structure will look similar to this:
