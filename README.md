@@ -16,9 +16,9 @@ Node 8 or greater is required. Development for iOS requires a Mac and Xcode 9 or
 
 You also need to install the dependencies required by React Native:
 
-- for [Android or development](https://reactnative.dev/docs/environment-setup)
+- for [Android or ios development](https://reactnative.dev/docs/environment-setup)
 
-Setup the project:
+**Setup the project:**
 - clone this repository
 - install the npm dependencies by running `yarn` or `npm install`
 
